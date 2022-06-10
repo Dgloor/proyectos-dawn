@@ -4,40 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <title>Portafolio Web</title>
   </head>
   <body>
-    <nav>
-      <ul class="nav-container">
-        <li>logo</li>
-        <li>Acerca de</li>
-        <li>Galería</li>
-        <li>Planes</li>
-        <li>Contacto</li>
+    <nav class="nav-container">
+      <div class="logo">
+        <a href="#home">Danny L.</a>
+      </div>
+      <ul class="nav-items">
+        <li><a href="#home">INICIO</a></li>
+        <li><a href="#about">ACERCA DE</a></li>
+        <li><a href="#projects">PROYECTOS</a></li>
+        <li><a href="#plans">PLANES</a></li>
+        <li><a href="#contact">CONTACTOS</a></li>
       </ul>
     </nav>
 
-    <header class="">
-      <h1>Portafolio Web</h1>
-    </header>
-
-    <section class="about">
-      <h2>Acerca de mí</h2>
+    <section class="home" id="home">
+      <div class="intro-text">
+        <h1>Desarrollador Web & Diseñador UX/UI</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+          accusamus fuga repellendus minus magni laudantium perferendis neque
+          iure! Consectetur cupiditate porro quidem alias possimus. Cum ex in
+          explicabo debitis culpa.
+        </p>
+      </div>
+      <lottie-player
+        src="https://assets4.lottiefiles.com/packages/lf20_vybwn7df.json"
+        background="transparent"
+        speed="1"
+        class="lottie-svg"
+        loop
+        autoplay
+      ></lottie-player>
     </section>
 
-    <section class="gallery">
-      <h2>Galería de Trabajos</h2>
+    <section class="about" id="about">
+      <h2>Acerca de</h2>
     </section>
-
-    <section class="rates">
-      <h2>Tarifas</h2>
+    <section class="projects" id="projects">
+      <h2>Proyectos</h2>
     </section>
-
-    <section class="contact">
+    <section class="clients" id="clients">
+      <h2>Clientes</h2>
+    </section>
+    <section class="plans" id="plans">
+      <h2>Planes</h2>
+    </section>
+    <section class="ubications" id="ubications">
+      <h2>Ubicaciones</h2>
+    </section>
+    <section class="contact" id="contact">
       <h2>Contacto</h2>
     </section>
+    <footer></footer>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
