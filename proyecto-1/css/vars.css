@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("/fonts/Gotham Bold/Gotham Bold.otf");
+}
+
+:root {
+  /* Colors */
+  --bg-dark: #171717;
+  --color-white: #fff;
+  --color-primary: #048970;
+
+  /* Fonts */
+  --font-primary: "Poppins", sans-serif;
+  --font-title: "Gotham Bold", sans-serif;
+  --font-extra: "Lobster", sans-serif;
+}
