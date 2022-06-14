@@ -10,11 +10,11 @@
     <title>Portafolio Web</title>
   </head>
   <body>
-    <nav class="nav-container">
-      <div class="logo">
+    <nav class="nav nav--dark">
+      <div class="nav__logo">
         <a href="#home">Danny L.</a>
       </div>
-      <ul class="nav-items">
+      <ul class="nav__items">
         <li><a href="#home">INICIO</a></li>
         <li><a href="#about">ACERCA DE</a></li>
         <li><a href="#projects">PROYECTOS</a></li>
@@ -23,10 +23,10 @@
       </ul>
     </nav>
 
-    <section class="home" id="home">
-      <div class="intro-text">
+    <section class="home home--dark" id="home">
+      <div class="home__intro">
         <h1>Desarrollador Web & Diseñador UX/UI</h1>
-        <p>
+        <p class="home__intro-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
           accusamus fuga repellendus minus magni laudantium perferendis neque
           iure! Consectetur cupiditate porro quidem alias possimus. Cum ex in
@@ -37,17 +37,17 @@
         src="https://assets4.lottiefiles.com/packages/lf20_vybwn7df.json"
         background="transparent"
         speed="1"
-        class="lottie-svg"
+        class="home__lottie-svg"
         loop
         autoplay
       ></lottie-player>
     </section>
 
     <section class="about" id="about">
-      <img class="about-photo" src="img/profile-pic.jpg" alt="profile-pic" />
-      <div class="about-bio">
+      <img class="about__photo" src="img/profile-pic.jpg" alt="profile-pic" />
+      <div class="about__bio">
         <h2>Danny Loor</h2>
-        <p>
+        <p class="about__bio-text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
           consequuntur! Velit dolor fugiat a, minus pariatur odio ut nesciunt
           deserunt dicta vel quis qui, debitis aperiam laborum eveniet, beatae
@@ -56,7 +56,7 @@
           nesciunt deserunt dicta vel quis qui, debitis aperiam laborum eveniet,
           beatae architecto.
         </p>
-        <p>
+        <p class="about__bio-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
           ducimus. Ratione assumenda corrupti id est nam accusamus soluta ex
           magni, accusantium officia magnam suscipit sunt delectus harum
@@ -68,24 +68,27 @@
       <h2>Proyectos</h2>
     </section>
     <section class="clients" id="clients">
-      <h2>Clientes</h2>
+      <h2 class="clients__title">Clientes</h2>
+      <video class="clients__video" src="img/customer-review.mp4" controls>
+        Lo siento. Este video no puede ser reproducido en tu navegador.<br />
+      </video>
     </section>
     <section class="plans" id="plans">
-      <h2>Planes</h2>
+      <h2 class="plans__title">Planes</h2>
     </section>
-    <section class="ubication" id="ubication">
+    <section class="ubications" id="ubications">
       <iframe
-        class="ubication-map"
+        class="ubications__map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0235473329653!2d-79.96984318542266!3d-2.144666137769282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses!2sec!4v1655094430627!5m2!1ses!2sec"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-      <div class="ubication-text"></div>
-      <h2>Oficina</h2>
+      <div class="ubications__text"></div>
+      <h2 class="ubications__title">Oficinas</h2>
     </section>
     <section class="contact" id="contact">
-      <h2>Contacto</h2>
+      <h2 class="contact__title">Contacto</h2>
     </section>
     <footer></footer>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
