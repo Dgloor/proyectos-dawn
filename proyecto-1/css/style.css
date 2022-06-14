@@ -4,9 +4,8 @@
 
 /* Navigation */
 .nav__logo a {
-  color: var(--color-white);
   font-family: var(--font-extra);
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   opacity: 0.7;
 }
 
@@ -49,7 +48,6 @@ section {
 
 /* Home */
 .home {
-  color: var(--color-white);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -99,15 +97,12 @@ section {
 }
 
 .about__bio p:nth-of-type(2) {
-  margin-top: 1.75rem;
+  margin-top: 1.5rem;
 }
 
 .about__photo {
   width: auto;
   height: auto;
-}
-.about__photo-rounded {
-  border-radius: 2%;
 }
 
 /* Projects */
@@ -167,6 +162,12 @@ section {
 .clients {
   display: flex;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients__review-title {
+  font-size: 2rem;
 }
 
 .clients__video {
@@ -244,13 +245,19 @@ section {
   font-size: 1.15rem;
 }
 
-/* Ubications */
-.ubications {
+/* Concact */
+.contact {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 2rem;
 }
 
-.ubications__map {
+.contact__title {
+  font-size: 2rem;
+}
+
+.contact__map {
   width: 600px;
   height: 450px;
   border: 0;
@@ -260,6 +267,38 @@ section {
 /* Dark sections */
 .nav--dark,
 .home--dark,
-.contact--dark {
+.contact--dark,
+.social--dark {
   background-color: var(--bg-dark);
+  color: var(--color-white);
 }
+
+/* Footer */
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 4rem;
+  font-size: 0.9rem;
+}
+
+.social__buttons,
+.social__buttons ul,
+.social__buttons li {
+  padding: 0.35rem;
+}
+
+.social__buttons li {
+  list-style: none outside none;
+  display: inline-block;
+}
+
+.social__buttons .fa:hover {
+  /* color: #ffffff; */
+  /* background-color: var(--color-primary); */
+  /* border: 1px solid var(--color-primary); */
+  font-size: 1.5rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+} 
