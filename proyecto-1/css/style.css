@@ -117,6 +117,12 @@ section {
 .about__photo {
   width: auto;
   height: auto;
+  filter: grayscale(90%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.about__photo:hover {
+  filter: grayscale(0%);
 }
 
 /* Projects */
@@ -160,15 +166,11 @@ section {
 }
 
 .projects__container .image img:nth-of-type(2) {
-  -webkit-clip-path: var(--clip-start);
   clip-path: var(--clip-start);
-  transition: -webkit-clip-path 0.5s;
-  transition: clip-path 0.5s;
-  transition: clip-path 0.5s, -webkit-clip-path 0.5s;
+  transition: clip-path 0.5s ease;
 }
 
 .projects__container .image:hover img:nth-of-type(2) {
-  -webkit-clip-path: var(--clip-end);
   clip-path: var(--clip-end);
 }
 
@@ -182,6 +184,10 @@ section {
 
 .clients__review-title {
   font-size: 2rem;
+}
+
+.clients__review-table td {
+  /* text-align: left; */
 }
 
 .clients__video {
@@ -221,7 +227,6 @@ section {
 .plans__card-price {
   border: 1px solid #eee;
   padding: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -305,10 +310,12 @@ section {
   color: var(--color-white);
   padding: 0.5rem 1.25rem;
   border: none;
+  transition: 0.1s ease-in-out;
 }
 
 .form__submit:hover {
   background-color: var(--color-primary);
+  transform: scale(1.05);
 }
 
 /* Footer */
@@ -329,8 +336,10 @@ section {
   gap: 1.35rem;
 }
 
+.social__buttons .fa {
+  transition: 0.1s ease-in-out;
+}
+
 .social__buttons .fa:hover {
   font-size: 1.5rem;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
 }
