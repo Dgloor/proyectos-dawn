@@ -1,12 +1,24 @@
 /* Extra small (phones, 600px --) */
 @media only screen and (max-width: 600px) {
-  .nav {
+  .nav,
+  .about__bio-text.text-2 {
     display: none;
   }
 
   .home {
     flex-wrap: wrap;
     flex-direction: row;
+  }
+
+  .about,
+  .clients,
+  .contact {
+    flex-direction: column;
+  }
+
+  .about__photo-container,
+  .contact__map {
+    order: 2;
   }
 }
 
