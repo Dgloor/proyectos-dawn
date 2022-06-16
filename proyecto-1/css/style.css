@@ -177,21 +177,41 @@ section {
 /* Clients */
 .clients {
   display: flex;
-  gap: 2rem;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clients__review {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 45%;
   align-items: center;
 }
 
 .clients__review-title {
   font-size: 2rem;
+  align-self: center;
+}
+
+.clients__review-table {
+  text-align: left;
+}
+
+.clients__review-table th {
+  padding: 1rem 0;
 }
 
 .clients__review-table td {
-  /* text-align: left; */
+  padding: 0.75rem 1.25rem 0.75rem 0;
+}
+
+.clients__video-container {
+  width: 55%;
 }
 
 .clients__video {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 
@@ -259,7 +279,7 @@ section {
   background-color: var(--color-primary);
   border: none;
   color: white;
-  padding: 10px 25px;
+  padding: 0.65rem 1.5rem;
   text-align: center;
   font-size: 1.15rem;
 }
@@ -300,7 +320,7 @@ section {
 }
 
 .form__email {
-  padding: 0.5rem 1.25rem 0.5rem 0.5rem;
+  padding: 0.65rem 1.25rem 0.65rem 0.5rem;
   border: 1px solid #ccc;
   width: 60%;
 }
@@ -308,7 +328,7 @@ section {
 .form__submit {
   background-color: var(--bg-dark);
   color: var(--color-white);
-  padding: 0.5rem 1.25rem;
+  padding: 0.65rem 1.5rem;
   border: none;
   transition: 0.1s ease-in-out;
 }

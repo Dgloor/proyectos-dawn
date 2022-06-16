@@ -1,5 +1,13 @@
 /* Extra small (phones, 600px --) */
 @media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+
+  .home {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
 /* Small (portrait tablets and large phones, 600px ++) */
