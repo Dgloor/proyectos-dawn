@@ -18,6 +18,7 @@
 
 .plans__cards {
   padding-top: 1rem;
+  font-size: 1.05rem;
   width: 100%;
   display: flex;
   justify-content: space-between;

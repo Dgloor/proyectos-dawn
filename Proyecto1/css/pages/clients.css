@@ -18,6 +18,10 @@
   font-size: 2rem;
 }
 
+.clients__review-table {
+  font-size: 1.05rem;
+}
+
 .clients__review-table th {
   text-align: left;
   padding: 1rem 0;
