@@ -51,6 +51,10 @@
     grid-template-columns: 1fr;
   }
 
+  .projects__container .image:nth-child(odd) {
+    display: none;
+  }
+
   .clients__review-table th {
     padding: 0.5rem 0;
     text-align: center;
@@ -64,10 +68,6 @@
   .plans__cards {
     width: 100%;
     flex-direction: column;
-  }
-
-  .projects__container:nth-child(odd) {
-    display: none;
   }
 
   .contact {
