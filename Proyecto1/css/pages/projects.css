@@ -20,14 +20,14 @@
   grid-gap: 2rem;
 }
 
-.projects__container .image {
+.projects__container .project-image {
   position: relative;
   padding-bottom: 100%;
   --clip-start: inset(100% 100% 100% 100%);
   --clip-end: inset(0 0 0 0);
 }
 
-.projects__container .image img {
+.projects__container .project-image img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
@@ -35,15 +35,15 @@
   position: absolute;
 }
 
-.projects__container .image img:nth-of-type(1) {
+.projects__container .project-image img:nth-of-type(1) {
   filter: grayscale(1) brightness(40%);
 }
 
-.projects__container .image img:nth-of-type(2) {
+.projects__container .project-image img:nth-of-type(2) {
   clip-path: var(--clip-start);
   transition: clip-path 0.5s ease;
 }
 
-.projects__container .image:hover img:nth-of-type(2) {
+.projects__container .project-image:hover img:nth-of-type(2) {
   clip-path: var(--clip-end);
 }
