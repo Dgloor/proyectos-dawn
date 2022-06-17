@@ -26,6 +26,11 @@
     flex-direction: column;
   }
 
+  .home {
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+
   .about {
     padding-top: 0;
   }
