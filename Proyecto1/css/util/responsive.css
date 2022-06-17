@@ -1,24 +1,87 @@
 /* Extra small (phones, 600px --) */
 @media only screen and (max-width: 600px) {
   .nav,
-  .about__bio-text.text-2 {
+  .about__bio-text.text-2,
+  .clients__table-country,
+  .plans__description {
     display: none;
   }
 
-  .home {
-    flex-wrap: wrap;
-    flex-direction: row;
+  .home__intro,
+  .home__lottie-svg,
+  .about__photo-container,
+  .about__bio,
+  .clients__review,
+  .clients__video-container,
+  .contact__map-container,
+  .contact__form-email,
+  .plans__card {
+    width: 100%;
   }
 
+  .home,
   .about,
   .clients,
   .contact {
     flex-direction: column;
   }
 
+  .about {
+    padding-top: 0;
+  }
+
+  .projects,
+  .clients,
+  .plans,
+  .contact {
+    padding-top: 3rem;
+  }
+
   .about__photo-container,
-  .contact__map {
+  .contact__map-container {
     order: 2;
+  }
+
+  .about,
+  .clients {
+    gap: 1.5rem;
+  }
+
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
+
+  .clients__review-table th {
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+
+  .clients__review-table td {
+    padding: 0.25rem 0;
+    text-align: center;
+  }
+
+  .plans__cards {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .projects__container:nth-child(odd) {
+    display: none;
+  }
+
+  .contact {
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  .contact__title {
+    text-align: center;
+  }
+
+  .contact__form {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 

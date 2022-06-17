@@ -14,12 +14,17 @@
 @import url("pages/plans.css");
 @import url("pages/contact.css");
 
+/* Responsive */
+@import url("util/responsive.css");
+
 * {
   font-family: var(--font-primary);
 }
 
 section {
-  padding: 0 4rem;
+  /* padding: 0 4rem; */
+  padding: 0 clamp(2rem, 5vw, 4rem);
+  /* padding: 0 5vw; */
 }
 
 /* Modifiers */

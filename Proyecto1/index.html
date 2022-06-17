@@ -132,33 +132,33 @@
         <table class="clients__review-table">
           <tr>
             <th>Cliente</th>
-            <th>País</th>
+            <th class="clients__table-country">País</th>
             <th>Calificación</th>
           </tr>
           <tr>
             <td>Elon Musk</td>
-            <td>Estados Unidos</td>
-            <td>⭐⭐⭐⭐⭐</td>
+            <td class="clients__table-country">Estados Unidos</td>
+            <td class="clients__table-stars">⭐⭐⭐⭐⭐</td>
           </tr>
           <tr>
             <td>Tim Berners Lee</td>
-            <td>Reino Unido</td>
-            <td>⭐⭐⭐⭐</td>
+            <td class="clients__table-country">Reino Unido</td>
+            <td class="clients__table-stars">⭐⭐⭐⭐</td>
           </tr>
           <tr>
             <td>Kerlly Zurita</td>
-            <td>Ecuador</td>
-            <td>⭐⭐⭐⭐⭐</td>
+            <td class="clients__table-country">Ecuador</td>
+            <td class="clients__table-stars">⭐⭐⭐⭐⭐</td>
           </tr>
           <tr>
             <td>Dua Lipa</td>
-            <td>Reino Unido</td>
-            <td>⭐⭐⭐⭐</td>
+            <td class="clients__table-country">Reino Unido</td>
+            <td class="clients__table-stars">⭐⭐⭐⭐</td>
           </tr>
           <tr>
-            <td>Niko Núñez</td>
-            <td>Reino Unido</td>
-            <td>⭐⭐⭐⭐⭐</td>
+            <td>Kevin Powell</td>
+            <td class="clients__table-country">Estados Unidos</td>
+            <td class="clients__table-stars">⭐⭐⭐⭐⭐</td>
           </tr>
         </table>
       </div>
@@ -217,13 +217,15 @@
     </section>
 
     <section class="contact" id="contact">
-      <iframe
-        class="contact__map rounded"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0235473329653!2d-79.96984318542266!3d-2.144666137769282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses!2sec!4v1655094430627!5m2!1ses!2sec"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <div class="contact__map-container">
+        <iframe
+          class="contact__map rounded"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0235473329653!2d-79.96984318542266!3d-2.144666137769282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses!2sec!4v1655094430627!5m2!1ses!2sec"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
       <div class="contact-container">
         <h2 class="contact__title">Contacto</h2>
         <div class="contact-info">
@@ -236,7 +238,7 @@
           </p>
           <p>
             <b>Horarios de atención:</b>
-            Lunes a viernes , 9:00 - 16:00
+            Lunes a viernes, 9:00 - 16:00
           </p>
         </div>
 
