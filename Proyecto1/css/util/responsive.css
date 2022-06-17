@@ -32,6 +32,10 @@
     padding-bottom: 0;
   }
 
+  .home__intro-title {
+    letter-spacing: 0.3px;
+  }
+
   .about {
     padding-top: 0;
   }
