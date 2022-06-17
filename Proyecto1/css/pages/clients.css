@@ -25,6 +25,7 @@
 .clients__review-table th {
   text-align: left;
   padding: 1rem 0;
+  font-size: 1.15rem;
 }
 
 .clients__review-table td {
