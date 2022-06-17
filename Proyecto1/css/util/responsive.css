@@ -1,6 +1,6 @@
-/* Extra small (phones, 600px --) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .nav,
+  .about__bio_title-start,
   .about__bio-text.text-2,
   .clients__table-country,
   .plans__description {
@@ -32,12 +32,22 @@
     padding-bottom: 0;
   }
 
+  .home,
+  .about,
+  .contact-info {
+    text-align: center;
+  }
+
   .home__intro-title {
     letter-spacing: 0.3px;
   }
 
   .about {
     padding-top: 0;
+  }
+
+  .about__bio-title {
+    padding-bottom: 1rem;
   }
 
   .projects,
@@ -80,6 +90,100 @@
 
   .clients__review-table td {
     padding: 0.25rem 0;
+    text-align: center;
+  }
+
+  .plans__cards {
+    width: 100%;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .contact {
+    gap: 1rem;
+  }
+
+  .contact__title {
+    text-align: center;
+  }
+
+  .contact__form {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .about__bio-text.text-2 {
+    display: none;
+  }
+
+  .home__intro,
+  .home__lottie-svg,
+  .about__photo-container,
+  .about__bio,
+  .clients__review,
+  .clients__video-container,
+  .plans__card,
+  .contact__form-email {
+    width: 100%;
+  }
+
+  .home,
+  .clients {
+    flex-direction: column;
+  }
+
+  .home {
+    justify-content: center;
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  .home__intro-title {
+    letter-spacing: 0.3px;
+  }
+
+  .home__lottie-svg {
+    display: none;
+  }
+
+  .about,
+  .projects,
+  .clients,
+  .plans,
+  .contact {
+    padding-top: 3rem;
+  }
+
+  .about__photo-container {
+    order: 2;
+  }
+
+  .about,
+  .clients {
+    gap: 2rem;
+  }
+
+  .about__photo {
+    filter: none;
+  }
+
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects__container .project-image img:nth-of-type(1) {
+    filter: none;
+  }
+
+  .clients__review-table th {
+    text-align: center;
+  }
+
+  .clients__review-table td {
     text-align: center;
   }
 
