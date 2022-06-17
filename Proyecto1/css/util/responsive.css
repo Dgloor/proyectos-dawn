@@ -34,7 +34,7 @@
   .clients,
   .plans,
   .contact {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   .about__photo-container,
@@ -55,8 +55,12 @@
     grid-template-columns: 1fr;
   }
 
-  .projects__container .image:nth-child(odd) {
+  .projects__container .project-image:nth-child(odd) {
     display: none;
+  }
+
+  .projects__container .project-image img:nth-of-type(1) {
+    filter: none;
   }
 
   .clients__review-table th {
@@ -77,7 +81,6 @@
 
   .contact {
     gap: 1rem;
-    padding-top: 1rem;
   }
 
   .contact__title {
