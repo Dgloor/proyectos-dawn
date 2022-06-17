@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/vars.css" />
-    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
     <title>Portafolio Web</title>
   </head>
   <body>
@@ -26,7 +23,7 @@
 
     <section class="home home--dark" id="home">
       <div class="home__intro">
-        <h1>Desarrollador Web & Diseñador UX/UI</h1>
+        <h1 class="home__intro-title">Desarrollador Web & Diseñador UX/UI</h1>
         <p class="home__intro-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
           accusamus fuga repellendus minus magni laudantium perferendis neque
@@ -243,15 +240,19 @@
           </p>
         </div>
 
-        <form action="" class="form">
+        <form action="" class="contact__form">
           <input
-            class="form__email rounded"
+            class="contact__form-email rounded"
             type="email"
             name="email"
             id="email"
             placeholder="Ingresa tu email"
           />
-          <input class="form__submit rounded" type="submit" value="Enviar" />
+          <input
+            class="contact__form-submit rounded"
+            type="submit"
+            value="Enviar"
+          />
         </form>
       </div>
     </section>

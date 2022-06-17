@@ -1,0 +1,53 @@
+.contact {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.contact__title {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.contact__map {
+  width: 60rem;
+  height: 30rem;
+  border: 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  font-size: 1.05rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.contact__form {
+  padding: 1.5rem 0;
+}
+
+.contact__form-email {
+  padding: 0.65rem 1.25rem 0.65rem 0.5rem;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+
+.contact__form-submit {
+  padding: 0.65rem 1.5rem;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--bg-dark);
+  transition: 0.1s ease-in-out;
+}
+
+.form__submit:hover {
+  background-color: var(--color-primary);
+  transform: scale(1.05);
+}

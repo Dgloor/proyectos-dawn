@@ -1,0 +1,36 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 4rem;
+  position: fixed;
+  z-index: 2;
+}
+
+.nav__logo a {
+  font-family: var(--font-extra);
+  font-size: 1.35rem;
+  opacity: 0.7;
+}
+
+.nav__logo a:hover {
+  opacity: 1;
+}
+
+.nav__items {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.nav__items a {
+  color: var(--color-white);
+  font-weight: 500;
+  letter-spacing: 0.025rem;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+.nav__items a:hover {
+  opacity: 1;
+}
